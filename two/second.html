@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>超链接实现</title>
+</head>
+<body>
+<p><a href="javascript:popUp('http://www.baidu.com');">ewrtwer</a> 
+</p>
+<p><a href="#" onclick="popUp('http://www.baidu.com/');
+return false;">百度</a>
+</p>
+<p><a href="http://www.baidu.com/" onclick="popUp(this.getAttribute('href')); return false;">eqweqwe</a></p>
+<p><a href="http://www.baidu.com/" onclick="popUp(this.href); return false;">qweqwe</a></p>
+<p><a href="http://www.baidu.com/" class="popup">eqweqw</a>    
+</p>
+<script src="scripts/open.js"></script>
+</body>
+</html>
